@@ -1,39 +1,40 @@
 name: blog-assistant
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-# Core stack
-- python=3.10
-- build
-- bump2version
-- ipykernel
-- ipywidgets
-- jupyter
-- jupyterlab
-- mamba
-- pip
-- twine
-# Utilities
-- pyprojroot
-- python-dotenv
-# CLI development
-- typer
-# Software testing
-- hypothesis
-- pytest
-# Code Style Tools
-- black
-- darglint
-- flake8
-- interrogate
-- pre-commit
-- pylint
-# Documentation
-- mkdocs
-- mkdocs-material
-- mkdocstrings
-# pip dependencies
-- pip:
-  # Place packages that cannot be installed by conda in this section.
-  - mknotebooks
-  - llamabot
+  # Core stack
+  - python=3.10
+  - build
+  - bump2version
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - mamba
+  - pip
+  - twine
+  # Utilities
+  - pyprojroot
+  - python-dotenv
+  # CLI development
+  - typer
+  # Software testing
+  - hypothesis
+  - pytest
+  # Code Style Tools
+  - black
+  - darglint
+  - flake8
+  - interrogate
+  - pre-commit
+  - pylint
+  # Documentation
+  - mkdocs
+  - mkdocs-material
+  - mkdocstrings
+  - panel
+  # pip dependencies
+  - pip:
+      # Place packages that cannot be installed by conda in this section.
+      - mknotebooks
+      - llamabot
