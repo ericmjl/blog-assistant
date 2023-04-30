@@ -3,7 +3,7 @@ channels:
 - conda-forge
 dependencies:
 # Core stack
-- python=3.9
+- python=3.10
 - build
 - bump2version
 - ipykernel
@@ -13,15 +13,6 @@ dependencies:
 - mamba
 - pip
 - twine
-# Standard PyData stack
-- matplotlib
-- numpy
-- pandas
-- pymc3
-- scikit-learn
-- scipy
-- seaborn
-- statsmodels
 # Utilities
 - pyprojroot
 - python-dotenv
@@ -45,3 +36,4 @@ dependencies:
 - pip:
   # Place packages that cannot be installed by conda in this section.
   - mknotebooks
+  - llamabot
